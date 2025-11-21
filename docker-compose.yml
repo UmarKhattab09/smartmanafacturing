@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  backend:
+    image: umarkhattab/smartmanafacturing:iiot-anomaly-backend-latest
+    container_name: iiot-backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend/models:/app/models:ro
+      - ./backend/scalers:/app/scalers
+      - ./backend/uploads:/app/uploads
+      # - ./backend/logs.json:/app/logs.json
+    environment:
+      - FLASK_ENV=production
+      - FLASK_APP=app.py
+      - PYTHONUNBUFFERED=1
+      - LOG_LEVEL=INFO
+    networks:
+      - iiot-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  frontend:
+    image: umarkhattab/smartmanafacturing:iiot-anomaly-frontend-latest
+    container_name: iiot-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - iiot-network
+    restart: unless-stopped
+
+networks:
+  iiot-network:
+    driver: bridge

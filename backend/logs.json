@@ -1,0 +1,233 @@
+[
+  {
+    "timestamp": "2025-11-17T20:23:50.658965",
+    "model_name": "IMU",
+    "confidence": 0.9997834461950851,
+    "anomaly": true,
+    "filename": "imu_measurement.csv",
+    "threshold": 1035.4146267183341,
+    "mean_error": 14.074860285755662,
+    "max_error": 64994.749417010345,
+    "anomaly_rate": 0.0022947475777664456
+  },
+  {
+    "timestamp": "2025-11-17T21:28:57.736924",
+    "model_name": "Image",
+    "confidence": 0.9989359024166439,
+    "anomaly": true,
+    "filename": "image_detection.csv",
+    "threshold": 10.153842749176135,
+    "mean_error": 1.1590959810329118,
+    "max_error": 1089.2760205103123,
+    "anomaly_rate": 4.2620598535272094e-05
+  },
+  {
+    "timestamp": "2025-11-17T21:29:37.235272",
+    "model_name": "IMU",
+    "confidence": 0.9997834461950851,
+    "anomaly": true,
+    "filename": "imu_measurement.csv",
+    "threshold": 1035.4146267183341,
+    "mean_error": 14.074860285755662,
+    "max_error": 64994.749417010345,
+    "anomaly_rate": 0.0022947475777664456
+  },
+  {
+    "timestamp": "2025-11-17T21:31:14.031046",
+    "model_name": "Robot",
+    "confidence": 0.6172782192046246,
+    "anomaly": false,
+    "filename": "robot.csv",
+    "threshold": 2716.1575992757753,
+    "mean_error": 675.4112686558834,
+    "max_error": 1764.757854262275,
+    "anomaly_rate": 0.0
+  },
+  {
+    "timestamp": "2025-11-17T21:49:01.658137",
+    "model_name": "IMU",
+    "confidence": 0.9997834461950851,
+    "anomaly": true,
+    "filename": "imu_measurement.csv",
+    "threshold": 1035.4146267183341,
+    "mean_error": 14.074860285755662,
+    "max_error": 64994.749417010345,
+    "anomaly_rate": 0.0022947475777664456
+  },
+  {
+    "timestamp": "2025-11-17T21:51:25.248044",
+    "model_name": "IMU",
+    "confidence": 0.9997834461950851,
+    "anomaly": true,
+    "filename": "imu_measurement.csv",
+    "threshold": 1035.4146267183341,
+    "mean_error": 14.074860285755662,
+    "max_error": 64994.749417010345,
+    "anomaly_rate": 0.0022947475777664456
+  },
+  {
+    "timestamp": "2025-11-17T21:51:35.858915",
+    "model_name": "Robot",
+    "confidence": 0.9297119306573409,
+    "anomaly": true,
+    "filename": "robot.csv",
+    "threshold": 1.3079252427690734e+20,
+    "mean_error": 3.2088918582134338e+19,
+    "max_error": 4.565343575692584e+20,
+    "anomaly_rate": 0.0008298066550493735
+  },
+  {
+    "timestamp": "2025-11-17T21:53:10.592025",
+    "model_name": "IMU",
+    "confidence": 0.9997834461950851,
+    "anomaly": true,
+    "filename": "imu_measurement.csv",
+    "threshold": 1035.4146267183341,
+    "mean_error": 14.074860285755662,
+    "max_error": 64994.749417010345,
+    "anomaly_rate": 0.0022947475777664456
+  },
+  {
+    "timestamp": "2025-11-17T21:53:21.133118",
+    "model_name": "Robot",
+    "confidence": 0.6172782192046246,
+    "anomaly": false,
+    "filename": "robot.csv",
+    "threshold": 2716.1575992757753,
+    "mean_error": 675.4112686558834,
+    "max_error": 1764.757854262275,
+    "anomaly_rate": 0.0
+  },
+  {
+    "timestamp": "2025-11-17T21:54:28.677745",
+    "model_name": "Image",
+    "confidence": 0.9989359024166439,
+    "anomaly": true,
+    "filename": "image_detection.csv",
+    "threshold": 10.153842749176135,
+    "mean_error": 1.1590959810329118,
+    "max_error": 1089.2760205103123,
+    "anomaly_rate": 4.2620598535272094e-05
+  },
+  {
+    "timestamp": "2025-11-18T21:40:45.427339",
+    "model_name": "IMU",
+    "confidence": 0.9997834461950851,
+    "anomaly": true,
+    "filename": "imu_measurement.csv",
+    "threshold": 1035.4146267183341,
+    "mean_error": 14.074860285755662,
+    "max_error": 64994.749417010345,
+    "anomaly_rate": 0.0022947475777664456
+  },
+  {
+    "timestamp": "2025-11-18T21:42:48.631894",
+    "model_name": "IMAGE",
+    "confidence": 0.11805710521608316,
+    "anomaly": false,
+    "filename": "imu.csv",
+    "threshold": 1.1049973358200929,
+    "mean_error": 0.9271997011864812,
+    "max_error": 1.051314894275159,
+    "anomaly_rate": 0.0
+  },
+  {
+    "timestamp": "2025-11-18T21:44:05.388753",
+    "model_name": "IMAGE",
+    "confidence": 0.9989359024166439,
+    "anomaly": true,
+    "filename": "image_detection.csv",
+    "threshold": 10.153842749176135,
+    "mean_error": 1.1590959810329118,
+    "max_error": 1089.2760205103123,
+    "anomaly_rate": 4.2620598535272094e-05
+  },
+  {
+    "timestamp": "2025-11-18T21:46:00.249111",
+    "model_name": "ROBOT",
+    "confidence": 0.6172782192046246,
+    "anomaly": false,
+    "filename": "robot.csv",
+    "threshold": 2716.1575992757753,
+    "mean_error": 675.4112686558834,
+    "max_error": 1764.757854262275,
+    "anomaly_rate": 0.0
+  },
+  {
+    "timestamp": "2025-11-19T09:41:16.262219",
+    "model_name": "IMU",
+    "confidence": 0.9997834461950851,
+    "anomaly": true,
+    "filename": "imu_measurement.csv",
+    "threshold": 1035.4146267183341,
+    "mean_error": 14.074860285755662,
+    "max_error": 64994.749417010345,
+    "anomaly_rate": 0.0022947475777664456
+  },
+  {
+    "timestamp": "2025-11-19T09:41:31.567715",
+    "model_name": "IMU",
+    "confidence": 0.9313357813353293,
+    "anomaly": true,
+    "filename": "imu_measurement-2.csv",
+    "threshold": 6054.548142417245,
+    "mean_error": 757.5440480753549,
+    "max_error": 11032.588192329187,
+    "anomaly_rate": 0.02
+  },
+  {
+    "timestamp": "2025-11-19T09:42:06.594244",
+    "model_name": "ROBOT",
+    "confidence": 0.6172782192046246,
+    "anomaly": false,
+    "filename": "robot.csv",
+    "threshold": 2716.1575992757753,
+    "mean_error": 675.4112686558834,
+    "max_error": 1764.757854262275,
+    "anomaly_rate": 0.0
+  },
+  {
+    "timestamp": "2025-11-19T09:42:24.127313",
+    "model_name": "IMAGE",
+    "confidence": 0.07307894124611039,
+    "anomaly": false,
+    "filename": "image_detection-2.csv",
+    "threshold": 0.9748139942606564,
+    "mean_error": 0.8004206988678672,
+    "max_error": 0.863526285554367,
+    "anomaly_rate": 0.0
+  },
+  {
+    "timestamp": "2025-11-19T10:01:50.397281",
+    "model_name": "IMU",
+    "confidence": 0.9997834461950851,
+    "anomaly": true,
+    "filename": "imu_measurement.csv",
+    "threshold": 1035.4146267183341,
+    "mean_error": 14.074860285755662,
+    "max_error": 64994.749417010345,
+    "anomaly_rate": 0.0022947475777664456
+  },
+  {
+    "timestamp": "2025-11-21T03:33:05.335409",
+    "model_name": "IMU",
+    "confidence": 0.9945355924042281,
+    "anomaly": true,
+    "filename": "robot_position_datain.csv",
+    "threshold": 2081100.8379500133,
+    "mean_error": 102410.61665711361,
+    "max_error": 18741394.169855315,
+    "anomaly_rate": 0.010979139634694081
+  },
+  {
+    "timestamp": "2025-11-21T03:33:41.498533",
+    "model_name": "ROBOT",
+    "confidence": 0.9986269848251654,
+    "anomaly": true,
+    "filename": "robot_position_datain.csv",
+    "threshold": 5920343.548014441,
+    "mean_error": 83863.42002353625,
+    "max_error": 61079747.37689298,
+    "anomaly_rate": 0.0020960175666234157
+  }
+]
